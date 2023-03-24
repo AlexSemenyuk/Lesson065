@@ -1,0 +1,87 @@
+/* Common */
+:root {
+    /* text color */
+    --color-text-primary: rgba(0, 0, 0, 1);
+    --color-text-secondary: rgba(255, 255, 255, 1);
+    --color-text-menu: rgba(0, 55, 0, 1);
+    --color-text-archive: rgb(63, 16, 27);
+
+    /* background */
+    --color-background-body: rgb(210, 210, 210, 1);
+    --color-background-aside: rgb(170, 170, 170, 1);
+    --color-background-button-hover: rgb(70, 70, 70, 1);
+    --color-background-init: rgb(40, 220, 190, 1);
+    --color-background-actual: rgb(204, 197, 45);
+    --color-background-archive: rgb(164, 28, 61);
+    --color-background-add: rgb(0, 128, 0, 1);
+    --color-background-actual-item: rgb(35, 29, 222);
+    --color-background-button-actual: rgb(29, 131, 38);
+    --color-background-button-archive: rgb(230, 65, 100, 1);
+    /*--color-background-rezult: rgb(102, 213, 86);*/
+    /* text */
+    --text-primary: "Arial", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*background-color: var(--color-background-body);*/
+}
+
+
+.head-h2 {
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+}
+
+.header {
+    padding: 0;
+}
+
+.main {
+    padding-top: 20px;
+}
+
+figure {
+    margin: 0;
+}
+
+.sec {
+    margin: 2%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 5%;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*flex-direction: row;*/
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+
+}
+
+.img-cur {
+    text-align: center;
+    margin-left: 12.5%;
+}
+
+th {
+    font-weight: 700;
+}
+
+th[scope="col"],
+td[scope="row"]{
+    text-align: center;
+    font-size: 16px;
+}
+
+.name {
+    position: relative;
+    top: -250%;
+    right: -82%;
+    color: var(--color-text-primary);
+}
